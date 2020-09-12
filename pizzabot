@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require_relative 'lib/pizzabot.rb'
+
+input = Pizzabot::DeliveryRobot.new(ARGV[0])
+
+puts "The instructions for Pizzabot are: #{input.delivery}"
