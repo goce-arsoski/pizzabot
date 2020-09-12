@@ -47,7 +47,7 @@ module Pizzabot
     end
 
     def delivery_check(arg1, arg2)
-      @x.positive? || @y.positive? ? x_move(@x - arg1) + y_move(@y - arg2) + DROP_PIZZA : '' # if x and y are positive add x moves, y moves and 'D' to instruction string
+      @x.positive? || @y.positive? ? x_move(@x - arg1) + y_move(@y - arg2) + DROP_PIZZA : '' # if x and y are positive add x moves, y moves and 'D' to instruction string or add empty string ''
     end
 
     def grid_x_axis
