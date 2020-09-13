@@ -1,4 +1,4 @@
-require "pizzabot/version"
+require 'pizzabot/version'
 
 module Pizzabot
   # This is pizza delivery robot
